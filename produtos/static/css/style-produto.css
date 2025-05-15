@@ -1,0 +1,279 @@
+.desktop {
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #e0e0e0;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1350px;
+  height: 920px;
+  top: 52px;
+  left: 45px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.desktop .painel-geral {
+  position: absolute;
+  width: 353px;
+  height: 919px;
+  top: 1px;
+  left: 0;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 351px;
+  height: 919px;
+  background-color: #304052;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.desktop .sair {
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  top: 821px;
+  left: 55px;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 2px;
+  left: 60px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .estoque {
+  position: absolute;
+  width: 179px;
+  height: 40px;
+  top: 233px;
+  left: 55px;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 2px;
+  left: 60px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.desktop .painel {
+  position: absolute;
+  width: 193px;
+  height: 40px;
+  top: 145px;
+  left: 55px;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 38px;
+  left: 38px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .saida {
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  top: 323px;
+  left: 55px;
+}
+
+.desktop .saida-2 {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.desktop .cadastro {
+  position: absolute;
+  width: 873px;
+  height: 726px;
+  top: 98px;
+  left: 419px;
+}
+
+.desktop .adicionar {
+  position: absolute;
+  width: 212px;
+  height: 55px;
+  top: 671px;
+  left: 315px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 210px;
+  height: 55px;
+  background-color: #34ae34;
+  border-radius: 10px;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 59px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .mais {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 13px;
+  left: 18px;
+  object-fit: cover;
+}
+
+.desktop .codigo {
+  position: absolute;
+  width: 873px;
+  height: 73px;
+  top: 168px;
+  left: 0;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 871px;
+  height: 45px;
+  top: 28px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.desktop .p {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .descricao {
+  position: absolute;
+  width: 873px;
+  height: 73px;
+  top: 292px;
+  left: 0;
+}
+
+.desktop .categoria {
+  position: absolute;
+  width: 873px;
+  height: 73px;
+  top: 416px;
+  left: 0;
+}
+
+.desktop .quantidade {
+  position: absolute;
+  width: 873px;
+  height: 73px;
+  top: 538px;
+  left: 0;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 0;
+  left: 127px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .copy {
+  position: absolute;
+  width: 295px;
+  height: 24px;
+  top: 989px;
+  left: 607px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .image {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
