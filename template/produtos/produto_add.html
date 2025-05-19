@@ -1,0 +1,23 @@
+<!-- template produto_add.html -->
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container">
+    <h2>Cadastro de Produtos</h2>
+    <form method="post" class="mt-4">
+      {% csrf_token %}
+      <div class="mb-3">
+        <label for="id_descricao" class="form-label">Descrição</label>
+        <input type="text" name="descricao" id="id_descricao" class="form-control" placeholder="Insira a descrição do produto" required>
+      </div>
+      <div class="mb-3">
+        <label for="id_categoria" class="form-label">Categoria</label>
+        <input type="text" name="categoria" id="id_categoria" class="form-control" placeholder="Insira a categoria do produto" required>
+      </div>
+      <div class="mb-3">
+        <label for="id_quantidade" class="form-label">Quantidade</label>
+        <input type="number" name="quantidade" id="id_quantidade" class="form-control" min="0" placeholder="Insira a quantidade do produto" required>
+      </div>
+      <button type="submit" class="btn btn-success">Adicionar</button>
+    </form>
+  </div>
+{% endblock %}

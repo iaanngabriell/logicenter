@@ -1,0 +1,32 @@
+<!-- template produtos_list.html -->
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container">
+    <h2>Lista de Produtos</h2>
+    <a href="{% url 'produto_add' %}" class="btn btn-success mb-3">+ Adicionar Produto</a>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Descrição</th>
+          <th>Categoria</th>
+          <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for produto in produtos %}
+        <tr>
+          <td>{{ produto.id }}</td>
+          <td>{{ produto.descricao }}</td>
+          <td>{{ produto.categoria }}</td>
+          <td>{{ produto.quantidade }}</td>
+        </tr>
+        {% empty %}
+        <tr><td colspan="4" class="text-center">Nenhum produto cadastrado.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
+
+
