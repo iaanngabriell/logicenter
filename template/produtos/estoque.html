@@ -13,16 +13,18 @@
           <th>Quantidade</th>
         </tr>
       </thead>
-      <tbody>
+      <<tbody>
         {% for produto in produtos %}
-        <tr>
-          <td>{{ produto.id }}</td>
-          <td>{{ produto.descricao }}</td>
-          <td>{{ produto.categoria }}</td>
-          <td>{{ produto.quantidade }}</td>
-        </tr>
+          {% if produto.quantidade > 0 %}
+            <tr>
+              <td>{{ produto.id }}</td>
+              <td>{{ produto.descricao }}</td>
+              <td>{{ produto.categoria }}</td>
+              <td>{{ produto.quantidade }}</td>
+            </tr>
+          {% endif %}
         {% empty %}
-        <tr><td colspan="4" class="text-center">Nenhum produto cadastrado.</td></tr>
+         <tr><td colspan="4">Nenhum produto em estoque.</td></tr>
         {% endfor %}
       </tbody>
     </table>

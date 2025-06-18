@@ -9,3 +9,9 @@ body{
     margin-bottom: 1.5em !important;
     border-radius: 15px !important;
 }
+
+@media(min-width:200px) and (max-width:986px){
+    .card-sidebar{
+        width: 100px !important;
+    }
+}
